@@ -1,19 +1,21 @@
-#include<stdio.h>//підключення бібліотек
+#include<stdio.h>//РїС–РґРєР»СЋС‡РµРЅРЅСЏ Р±С–Р±Р»С–РѕС‚РµРє
 #include<math.h>
 
 
-float main () {
+int main () {
  
 	const float a = -3;
 	const float b = 24;
 	const float c = 13;
-	float y;//ведення зміних
+	float y;//РІРµРґРµРЅРЅСЏ Р·РјС–РЅРёС…
 	
 	y = ((a + 4 * b - pow(c, 2)) / (2 * a * b * c));//formula
 
-	printf("\tY =  %f \n", y);//виведеня
+	printf("\tY =  %f \n", y);//РІРёРІРµРґРµРЅСЏ
 
 
-	return 0;//кінець програми
+	return 0;//РєС–РЅРµС†СЊ РїСЂРѕРіСЂР°РјРё
 	
+
+
 }
